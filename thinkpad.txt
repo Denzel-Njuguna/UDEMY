@@ -1,0 +1,8 @@
+first we show the user no of inputs required in dashes form 
+we ask for input 
+function to check if the input is in the word chosen
+
+to replace no of dashes we need 
+    the actual position of the dashe
+    the letter to replace it with
+    length is so that we can replace letters that appear more than once

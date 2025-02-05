@@ -1,0 +1,13 @@
+1.binding to an ip and port - example being the user using a radio choosing the radio station 
+2.server starts listening for connections- this is when the radio starts to broadcast
+3.client connects to the server-then the radio tunes in
+4.servers sends the requested information to the server-the user starts listening to music
+5.finally the client disconnects from the server-this is when the listener turns off the radio
+
+question 2:
+user access and authentication
+    i would implement a strong authentication and define the roles of users and their permissions
+Network security
+    i would put up a firewall to filter outgoing and incoming data
+data protection and privacy
+    i would encrypt sensitive data and control data access based on user's clearance
