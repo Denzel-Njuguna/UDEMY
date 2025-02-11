@@ -8,7 +8,7 @@ def check1(name1,TRUE,LOVE):
             LOVE+=1
     return TRUE,LOVE 
 def check2(name2,TRUE,LOVE):
-    for letter in name2:
+    for letter in name2: 
         if letter in search[0]:
             TRUE+=1
         if letter in search[1]:
