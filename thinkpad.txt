@@ -6,3 +6,15 @@ to replace no of dashes we need
     the actual position of the dashe
     the letter to replace it with
     length is so that we can replace letters that appear more than once
+BLACKJACK THE GAME:
+    ask the user if they would like to play BLACKJACK
+    first show the user the card they have been dealt
+        Rules:*face cards are of value of 10 and the game is a race to 21
+        1.every user is dealt two card
+        2.show the user both their card
+        3.show the user only one of the computer's cards
+            if the user is dealt an ace ask what they would like to the value of ace to be 1 or 11
+        4.ask the user if they would like to be dealt again
+            if "no" reveal both of the computers cards and declare the winner
+            if yes deal the user another pair of cards
+        5.if the computer has a soft seventeen then they stop collecting cards
