@@ -20,4 +20,3 @@ for each in student_scores:
         student_grades[each] = "Acceptable"
     else:
         student_grades[each] = "Fail"
-print(student_grades)
