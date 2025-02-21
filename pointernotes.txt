@@ -1,0 +1,2 @@
+1.so if i am to declare a variable inside a loop statement which is not inside a function
+then the variable is considered global but it is good practice to define the variable outside the loop statement

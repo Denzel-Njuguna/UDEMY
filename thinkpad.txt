@@ -18,3 +18,8 @@ BLACKJACK THE GAME:
             if "no" reveal both of the computers cards and declare the winner
             if yes deal the user another pair of cards
         5.if the computer has a soft seventeen then they stop collecting cards
+GUESSING GAME:
+1.first use the random module to find a random value between 1 and 100
+2.ask the user difficulty level "easy" or "hard":
+    easy- they get 10 hints of greater or lesser
+    hard - they get 5 hints of the value
