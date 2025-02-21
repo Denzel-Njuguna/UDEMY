@@ -18,8 +18,123 @@ BLACKJACK THE GAME:
             if "no" reveal both of the computers cards and declare the winner
             if yes deal the user another pair of cards
         5.if the computer has a soft seventeen then they stop collecting cards
+<<<<<<< HEAD
 GUESSING GAME:
 1.first use the random module to find a random value between 1 and 100
 2.ask the user difficulty level "easy" or "hard":
     easy- they get 10 hints of greater or lesser
     hard - they get 5 hints of the value
+=======
+
+HANGMAN GAME
+first the user input the the first letter
+we then:-
+        1.check if the letter is in the word 
+        2.check if there are duplicates of the letter in the word
+        3.check if all the instances of the letter have been filled
+        4.if all conditions are met we then replace the dash at the index with the letter
+
+CEASAR CIPHER
+first ask the user if they want to encode or decode it 
+take the user input and call the function 
+1. ENCODE
+    if it is to encode:
+        1.ask for the data the user wants to encode 
+        2.ask the no ahead they would like to encode 
+        3 return the encoded value
+2.DECODE:
+        1.ask the user the data they would like to decode
+        2.ask the times over they would like to decode 
+        3.take the data and select each letter
+        4.for each letter find its index in the letters list
+        5.go back the no of times over to find correct index
+        6.retrieve the letter at the index
+LOVE CALCULATOR
+1. Take both people's names and check for the number of times the letters in the word TRUE occurs.   
+
+2. Then check for the number of times the letters in the word LOVE occurs.   
+
+3. Then combine these numbers to make a 2 digit number and print it out. 
+THOUGHT PROCESS:
+    1.i have the length of the names 
+    2.for each letter in names 
+    3.check if the letter is 
+
+SILENT AUCTION
+THOUGHT PROCESS:
+ask for the user's name - this will be the key
+ask for the amount they would like to bid  - value
+ask if there are any other bidders
+first create a dictionary to place all the user's information 
+then create a list that that contains the name of the person with the highest bid
+then from the list retrieve the infromation of the highest bidder from the dictionary
+then we finally create the yes no logic
+
+GRADING PROJECT
+- Scores 91 - 100: Grade = "Outstanding" 
+
+- Scores 81 - 90: Grade = "Exceeds Expectations" 
+
+- Scores 71 - 80: Grade = "Acceptable" 
+
+- Scores 70 or lower: Grade = "Fail"
+
+HIGHER OR LOWER7
+1.first show the user both celbrities 
+        for this to happen
+        1.choose the celebrities randomly 
+        2.then fill their details into the question 
+        3.the comparison is based on followers
+        4.{name},a {brand},from {country}
+COFFEE MACHINE
+dimes = 0.10
+nickel = 0.05
+penny = 0.01
+quarter = 0.25
+starting materials:
+        300ml water
+        200ml milk
+        100g coffee
+refill:
+        ask what they would like to refill
+        refill resources:
+                water
+                milk
+                coffee
+report:
+        gives us the raw materials remaining i.e:
+                water
+                coffee
+                milk
+                money
+sufficiency:
+
+latte:
+        requirements:
+                200ml water
+                24g coffee
+                150ml milk
+        gives the price:1.50
+        asks how would you like to pay (dimes,nickel,penny,quarter)
+        then subtract from price and if they are less x display the value of x
+        if there is change then give display the change to be given 
+cappucino:
+        requirements:
+                250ml water
+                24g coffee
+                100ml milk
+        gives the price:3.00
+        asks how would you like to pay (dimes,nickel,penny,quarter)
+        then subtract from price and if they are less x display the value of x
+        if there is change then give display the change to be given 
+espresso:
+        requirements:
+                50ml water
+                18g coffee
+        gives the price:2.50
+        asks how would you like to pay (dimes,nickel,penny,quarter)
+        then subtract from price and if they are less x display the value of x
+        if there is change then give display the change to be given 
+check transction is successful:
+        if not return money 
+>>>>>>> b81a3b767d75305881dbdba8ec512d2bb767130d
